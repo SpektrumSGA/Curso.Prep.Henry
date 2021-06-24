@@ -1,0 +1,38 @@
+Variables:
+==========
+
+Las variables son cajas que pueden estar vacias o llenas. Y que podemos cambiar lo que hay dentro, o
+incluso sacar lo que hay y dejarla vacia de nuevo.
+
+Estas cajas (variables) tienen unas etiquetas, que son los NOMBRES que les damos al crearlas.
+Y esos nombres nos ayudan a poder identificarlas, a que la memoria pueda apuntarlas con el dedo.
+
+Strings:
+========
+
+String es un tipo de dato de cadena de texto, que utilizamos para escribir palabras, frases o incluso
+numeros, pero siempre entre "" o ''
+
+Funciones:
+==========
+
+Una funcion, es un bloque de codigo que invocamos para que realice diferentes acciones al procesar 
+nuestro codigo. Las mismas, siempre retornan algo. (en caso de que no, igual retornan undefined)
+
+If/else if/else:
+================
+
+Estas declaraciones sirven para apuntar a nuestro interprete js con condiciones, operadores logicos y un largo etc.
+Dependiendo el valor resuelto, entrara dentro de nuestro if o no, y en caso de que éste tenga
+un "else if", y el if NO se haya cumplido, verificara a continuacion el siguiente "else if"
+hasta que ya no haya else if que verificar.
+
+Una vez que no haya mas else if que verificar, observara si colocamos un "else" de estar presente, entrara y ejecutara lo que hay dentro.
+
+En caso de que no haya un else, o que nuestro else no tenga ningun return,break u otra parada, continuara interpretando nuestro codigo desde allí
+
+
+Valores booleanos:
+==================
+
+Los valores booleanos son valores logicos, de true o false (verdadero o falso) y nos ayudan en la toma de decisiones de nuestro interprete, en nuestras condiciones como en los if ( algo ) verifica este "algo" y devolvera un true o un false y en base a eso sabra si ejecutar lo siguiente o no.
