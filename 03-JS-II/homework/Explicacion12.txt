@@ -1,0 +1,29 @@
+bucle for:
+==========
+Este bucle sirve para iterar una cierta cantidad de veces que puede ser fijada de manera manual/literal
+o de manera dinamica, y cada vez que termine cada ciclo (cada "vuelta") volvera a ejecutar lo que indicamos dentro de el.
+
+los bucles for se escriben con este formato: for (inicializacion; condicion; incremento/decremento){}
+
+operadores &&, ||, !:
+=====================
+
+Estos operadores, nos sirven para verificar y/o decirle a nuestro codigo la manera de interpretar ciertos bloques de codigo, como por ejemplo en este caso:
+
+// Verificamos si roberto y pablo son mayores de edad
+if (roberto > 18 || pablo > 18)
+{
+	// Al ser CUALQUIERA de los 2 mayor de edad, los dejamos entrar al establecimiento.
+	return true;	
+}
+else
+{
+	// Si ninguno de los dos es mayor, no pueden ingresar.
+	return false;
+}
+
+Si cambiaramos el operador || por el operador && estariamos diciendo que para ingresar AMBOS deberan
+ser mayores de 18, mientras que en el ejemplo del operador || dijimos que con 1 de ellos sea mayor de edad ya podian ingresar.
+
+En el caso del operador not "!" invertimos la expresion, si dijeramos:
+if ( !(pablo > 18) ) estariamos diciendo que si pablo es mayor de 18 si (true), pero al indicar el "!" lo invertimos y se convierte en un no (false)
