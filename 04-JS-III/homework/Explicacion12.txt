@@ -1,0 +1,13 @@
+Arrays:
+=======
+
+Un array (arreglo) es una lista, dentro de ella podemos tener todo tipo de cosas.
+Podemos tener un objeto{}, una funcion(), un String "", numeros integer, booleanos true/false, incluso otro array[]
+
+Las listas nos sirven para guardar informacion de manera mas ordenada, ademas tienen un indice (index)
+al cual accedemos colocando una expresion numerica dentro de sus corchetes (Empezando por el 0 !)
+
+Ejemplo: 
+let myArray = ["Hola", "Alumno"]
+
+myArray[0] // esto accederia al primer elemento de la lista y me traeria la palabra (String) "Hola"
