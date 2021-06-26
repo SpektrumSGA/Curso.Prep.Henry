@@ -1,0 +1,34 @@
+Objetos:
+========
+Los objetos son como los sustantivos en la realidad, en la realidad los sustantivos son aquellas cosas
+que podemos ver y tocar.
+
+
+Propiedades:
+============
+Antes dijimos que un objeto era como los sustantivos, que son aquellas cosas que podemos ver y tocar, entocnes si podemos verlas y tocarlas, entonces sabemos que tienen propiedades.
+Colores diferentes, nombres diferentes, cantidad de piezas diferentes, etc.
+Los objetos, en javascript tienen sus propiedades, al igual que una persona tiene 2 pies, 2 braazos y 1 cabeza. Un color de ojos, una edad.
+
+
+Métodos:
+========
+Anteriormente hablabamos de propiedades, y en sus propiedades tiene funciones que llamamos "metodos". Como podria ser: caminar, correr, gatear.
+En cada una de estas acciones (o podriamos decir funciones, verdad?) tenemos una forma de hacerlo (un metodo).
+Para caminar, adelantamos un pie, lo apoyamos y luego repetimos la accion con el otro pie.
+Aplicamos este metodo para hacer la funcion que conocemos como "caminar".
+
+
+Bucle `for…in`:
+===============
+El bucle for-in itera sobre cada propiedad de nuestro objeto.
+Si nuestro objeto tiene 3 propiedades (nombre, edad, color de ojos) nuestro for iterara 3 veces. 1 por cada propiedad.
+
+
+Notación de puntos vs notación de corchetes:
+============================================
+Ambas son validas, pero no siempre podemos usar una o la otra dependiendo lo que queramos hacer.
+Por convencion, utilizaremos como prioridad la notacion de puntos siempre que sea posible.
+Pero en el caso de querer llamar una propiedad que es una variable, nos vemos obligado a usar [variable] bracket notation.
+O en el caso de un string que tenga un espacio ["propiedad uno"]
+
