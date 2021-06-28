@@ -1,0 +1,18 @@
+prototype:
+==========
+prototype es lo que se conoce como herencia, donde podemos agregar propiedades o metodos a una clase proto de otra.
+
+constructors (de clases)
+========================:
+
+Los constructores son como un molde o un plane sobre los que basarnos, en este caso, basarnos al crear un objeto.
+Pero no es distinto de un plano en el que basarnos al crear una casa.
+
+Al crear los planos de la casa, diremos que cada casa hecha con este plano (constructor)
+tengan todas las siguientes propiedades:
+
+ventanas = (x cantidad)
+puertas = (x cantidad)
+colorExterior = (x color)
+
+Entonces cada casa que hagamos con este diseño (constructor) tendran siempre ventanas, puertas y color exterior, pero la cantidad o color de cada casa puede ser diferente.
