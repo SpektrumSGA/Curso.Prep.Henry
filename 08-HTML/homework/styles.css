@@ -1,0 +1,32 @@
+            /* Ids */
+            #thirdDiv{
+                width: 500px;
+                height: 600px;
+                background-color: royalblue;
+                padding: 50px;
+                border: 8px solid saddlebrown;
+                border-radius: 80px;
+            }
+
+            #spanId{
+                font-size: 18px;
+                margin: 50px;
+            }
+
+            /* Clases */
+            .divClass{
+
+            }
+            
+            /* Tipos */
+            h1{
+                color: red;
+            }
+
+            img{
+                width: 400px;
+            }
+
+            body{
+                background-image: url("https://i.pinimg.com/originals/56/2c/44/562c44995c916362c105ac91601817f5.jpg");
+            }

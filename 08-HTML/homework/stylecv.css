@@ -1,0 +1,34 @@
+            /* Ids */
+            #imgCv{
+                padding: 0px;
+                border: 8px solid saddlebrown;
+                border-radius: 100px;
+            }
+
+            #spanId{
+                font-size: 18px;
+                margin: 50px;
+            }
+
+            #divRight{
+                margin-right: 50px;
+                float: right;
+            }
+
+            /* Clases */
+            .divClass{
+
+            }
+            
+            /* Tipos */
+            h1{
+            }
+
+            body{
+                background-image: url("https://images.hdqwalls.com/wallpapers/big-sur-5k-px.jpg");
+                background-repeat: no-repeat
+            }
+
+            div{
+                margin: 50px;
+            }
